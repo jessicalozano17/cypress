@@ -13,7 +13,7 @@ Install Maven putting the corresponding MAVEN_HOME environment variable
 
 ```
 
-## Usage
+## Use
 
 Opening a terminal inside the back-automation-master folder, you can execute the command "mvn verify" to run the automated tests
 
