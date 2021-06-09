@@ -1,0 +1,2290 @@
+jun. 08, 2021 4:56:34 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:35 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:35 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:35 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:35 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:35 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-942.527.497,ckey=203.222.027)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@5273143e, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@5b3755f4, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@4b09d1c3, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31701",oids={})
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:36 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:38 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:38 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:38 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:38 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:38 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=1.872.976.448,ckey=1.586.348.825)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@77a85e76, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:38 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@2cebf82f, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:39 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:39 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@34fc315d, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31701 AND idtipo = '1'",oids={})
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:39 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:39 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:56:39 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:56:41 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:41 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:41 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:41 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:41 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:41 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:41 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:41 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:41 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:41 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:41 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=1.080.532.434,ckey=1.046.899.816)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@17189618, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@983050b, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@6aadb092, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31702",oids={})
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:42 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:43 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:43 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:43 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:43 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:43 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:43 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:43 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:43 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:43 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:44 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-783.940.078,ckey=1.479.041.673)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@6d6712b7, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@4f563f96, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:44 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:44 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@3eadad14, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31702 AND idtipo = '2'",oids={})
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:44 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:56:45 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:45 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:45 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:46 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:46 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:46 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:46 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:46 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:46 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:46 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:46 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:46 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:47 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-1.067.023.930,ckey=-1.887.376.957)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@2a5d2041, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@3cacc87, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:47 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:47 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@3bc6c10f, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31703",oids={})
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:47 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:48 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:48 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:48 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:48 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:49 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:49 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:49 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:49 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:49 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:49 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:49 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:49 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:49 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:50 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-321.647.367,ckey=1.437.647.540)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@7305cfb1, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@582c1f8d, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:50 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:50 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@71687d8f, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31703 AND idtipo = '1'",oids={})
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:50 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:56:51 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:51 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:51 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:52 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:52 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:52 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:52 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:52 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:53 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=2.095.484.199,ckey=527.934.329)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@1f57666b, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@7944c323, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:53 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@637d111d, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31704",oids={})
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:54 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:55 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:55 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:55 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:55 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:55 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:56 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-1.798.695.330,ckey=221.868.570)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@2b19b346, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:56 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@37c5b8e8, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:57 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:56:57 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@706d2bae, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31704 AND idtipo = '2'",oids={})
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:56:57 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:56:57 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:56:59 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:56:59 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:56:59 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:56:59 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:56:59 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:56:59 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=1.105.150.089,ckey=-2.141.583.993)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@2157889c, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@65e92505, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@e97f51c, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31705",oids={})
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:00 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:04 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:04 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:04 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:04 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:04 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:04 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:04 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:04 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:04 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:04 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:04 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=1.387.674.935,ckey=-367.067.225)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@477bea57, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@5dc7391e, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:05 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:05 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@4a9ff419, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31705 AND idtipo = '1'",oids={})
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:05 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:05 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:07 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:07 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:07 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:07 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:07 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:07 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:07 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:07 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:07 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:08 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=1.077.205.664,ckey=-840.964.936)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@3b839f68, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@e5c52fa, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:08 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:08 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@614361fa, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31706",oids={})
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:08 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:09 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:09 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:09 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:09 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:12 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:12 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:12 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:12 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:12 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:13 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-724.318.991,ckey=-522.403.338)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@5443086a, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:13 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@5740ad76, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:14 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:14 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@40a84ea8, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31706 AND idtipo = '2'",oids={})
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:14 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:14 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO:  FE=> Terminate
+jun. 08, 2021 4:57:15 P. M. org.postgresql.core.QueryExecutorBase close
+MÁS DETALLADO: Discarding IOException on close:
+java.net.SocketException: Connection or outbound has closed
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1205)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.postgresql.core.PGStream.flush(PGStream.java:592)
+	at org.postgresql.core.QueryExecutorBase.close(QueryExecutorBase.java:149)
+	at org.postgresql.jdbc.PgConnection.close(PgConnection.java:724)
+	at org.postgresql.jdbc.PgConnection.finalize(PgConnection.java:978)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2125)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+
+jun. 08, 2021 4:57:16 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:16 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:16 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:16 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:16 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:16 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-1.632.519.641,ckey=1.243.662.357)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@285b491f, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@346330b6, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@71e2843b, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31707",oids={})
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:17 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:20 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:20 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:20 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:20 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:20 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:20 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:20 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:20 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:20 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:21 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=-1.128.469.564,ckey=-1.882.377.297)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@ebff59d, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@3361d286, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:21 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:22 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:22 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@6ee186f3, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31707 AND idtipo = '1'",oids={})
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:22 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:22 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:23 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:23 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:23 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:23 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:23 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:23 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:23 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:23 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:23 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:24 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=414.387.309,ckey=-655.836.500)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@25d23478, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@677c2820, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:24 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@39c1e7b7, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT valordispositivo, idtipo FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31708",oids={})
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(valordispositivo,VARCHAR,65535,T)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idtipo,INT4,4,T)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=11)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=15)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 2)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
+jun. 08, 2021 4:57:25 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:28 P. M. org.postgresql.Driver connect
+DETALLADO: Connecting with URL: jdbc:postgresql://poolpgmicros.stratiodev.bb.com.mx:20123/dev-sac
+jun. 08, 2021 4:57:28 P. M. org.postgresql.jdbc.PgConnection <init>
+DETALLADO: PostgreSQL JDBC Driver 42.2.10
+jun. 08, 2021 4:57:28 P. M. org.postgresql.jdbc.PgConnection setDefaultFetchSize
+DETALLADO:   setDefaultFetchSize = 0
+jun. 08, 2021 4:57:28 P. M. org.postgresql.jdbc.PgConnection setPrepareThreshold
+DETALLADO:   setPrepareThreshold = 5
+jun. 08, 2021 4:57:28 P. M. org.postgresql.core.v3.ConnectionFactoryImpl openConnectionImpl
+DETALLADO: Trying to establish a protocol version 3 connection to poolpgmicros.stratiodev.bb.com.mx:20123
+jun. 08, 2021 4:57:28 P. M. org.postgresql.core.Encoding <init>
+MÁS DETALLADO: Creating new Encoding UTF-8 with fastASCIINumbers true
+jun. 08, 2021 4:57:28 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Receive Buffer Size is 65.536
+jun. 08, 2021 4:57:28 P. M. org.postgresql.core.v3.ConnectionFactoryImpl tryConnect
+DETALLADO: Send Buffer Size is 23.040
+jun. 08, 2021 4:57:28 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  FE=> SSLRequest
+jun. 08, 2021 4:57:28 P. M. org.postgresql.core.v3.ConnectionFactoryImpl enableSSL
+MÁS DETALLADO:  <=BE SSLOk
+jun. 08, 2021 4:57:28 P. M. org.postgresql.ssl.MakeSSL convert
+DETALLADO: converting regular socket connection to ssl
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.ConnectionFactoryImpl sendStartupPacket
+MÁS DETALLADO:  FE=> StartupPacket(user=servicepgmicros, database=dev-sac, client_encoding=UTF8, DateStyle=ISO, TimeZone=Europe/Madrid, extra_float_digits=2)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.ConnectionFactoryImpl doAuthentication
+MÁS DETALLADO:  <=BE AuthenticationOk
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(integer_datetimes = on)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(IntervalStyle = postgres)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(is_superuser = off)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_encoding = UTF8)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(server_version = 12.3 (Ubuntu 12.3-1.pgdg18.04+1))
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(session_authorization = servicepgmicros)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(client_encoding = UTF8)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(DateStyle = ISO)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(TimeZone = Europe/Madrid)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(standard_conforming_strings = on)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = )
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl readStartupMessages
+MÁS DETALLADO:  <=BE BackendKeyData(pid=2.008.915.270,ckey=-136.591.041)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@3bf40c74, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET extra_float_digits = 3",oids={})
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.core.SetupQueryRunner$SimpleResultHandler@665f88e1, maxRows=0, fetchSize=0, flags=1.047
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SET application_name = 'PostgreSQL JDBC Driver'",oids={})
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=1)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveParameterStatus
+MÁS DETALLADO:  <=BE ParameterStatus(application_name = PostgreSQL JDBC Driver)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SET)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary send = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:29 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     types using binary receive = TIMESTAMPTZ,UUID,INT2_ARRAY,INT4_ARRAY,BYTEA,TEXT_ARRAY,TIMETZ,INT8,INT2,INT4,VARCHAR_ARRAY,INT8_ARRAY,POINT,DATE,TIMESTAMP,TIME,BOX,FLOAT4,FLOAT8,FLOAT4_ARRAY,FLOAT8_ARRAY
+jun. 08, 2021 4:57:29 P. M. org.postgresql.jdbc.PgConnection <init>
+MÁS DETALLADO:     integer date/time = true
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl execute
+MÁS DETALLADO:   simple execute, handler=org.postgresql.jdbc.PgStatement$StatementResultHandler@6a7ea7c, maxRows=0, fetchSize=0, flags=17
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendParse
+MÁS DETALLADO:  FE=> Parse(stmt=null,query="SELECT idestado, intento FROM dispositivos.sa_bb_bancdigi_th_dispositivo WHERE idsubcaso = 31708 AND idtipo = '2'",oids={})
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendBind
+MÁS DETALLADO:  FE=> Bind(stmt=null,portal=null)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendDescribePortal
+MÁS DETALLADO:  FE=> Describe(portal=null)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendExecute
+MÁS DETALLADO:  FE=> Execute(portal=null,limit=0)
+jun. 08, 2021 4:57:29 P. M. org.postgresql.core.v3.QueryExecutorImpl sendSync
+MÁS DETALLADO:  FE=> Sync
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE ParseComplete [null]
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE BindComplete [unnamed]
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:  <=BE RowDescription(2)
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(idestado,INT4,4,T)
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveFields
+MÁS DETALLADO:         Field(intento,INT4,4,T)
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl processResults
+MÁS DETALLADO:  <=BE DataRow(len=2)
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveCommandStatus
+MÁS DETALLADO:  <=BE CommandStatus(SELECT 1)
+jun. 08, 2021 4:57:30 P. M. org.postgresql.core.v3.QueryExecutorImpl receiveRFQ
+MÁS DETALLADO:  <=BE ReadyForQuery(I)
+jun. 08, 2021 4:57:30 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 1
+jun. 08, 2021 4:57:30 P. M. org.postgresql.jdbc.PgResultSet getString
+MÁS DETALLADO:   getString columnIndex: 2
